@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #333;
+      border-bottom: 2px solid #333;
+      padding-bottom: 5px;
+    }
+    .project {
+      background: white;
+      padding: 15px;
+      margin-top: 10px;
+      border: 1px solid #ddd;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #333;
+      color: white;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 15px;
+      background: #333;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    a.button:hover {
+      background: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Developer | Designer | Tech Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a passionate web developer with experience in HTML, CSS, JavaScript, and modern web technologies. I love building clean, user-friendly websites and applications.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Project 1: Personal Blog</h3>
+        <p>A responsive blog website built with HTML, CSS, and JavaScript.</p>
+        <a class="button" href="https://yourusername.github.io/blog-project" target="_blank">View Project</a>
+      </div>
+
+      <div class="project">
+        <h3>Project 2: Portfolio Website</h3>
+        <p>This portfolio website showcases my work and skills.</p>
+        <a class="button" href="#" target="_blank">View Project</a>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via email or connect on social media:</p>
+      <ul>
+        <li>Email: yourname@example.com</li>
+        <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Your Name. All rights reserved.
+  </footer>
+
+</body>
+</html>
